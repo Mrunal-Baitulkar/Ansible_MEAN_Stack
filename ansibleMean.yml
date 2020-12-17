@@ -1,0 +1,9 @@
+---
+- name: Install Nginx,Mongodb,Nodejs
+  hosts: [myhost]
+  remote_user: mrunal
+  become: yes
+  roles:
+    - nginx
+    - mongodb
+    - nodejs

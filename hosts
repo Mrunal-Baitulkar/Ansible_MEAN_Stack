@@ -1,0 +1,2 @@
+[myhost]
+192.180.161.130 ansible_ssh_user=mrunal ansible_ssh_pass=""
